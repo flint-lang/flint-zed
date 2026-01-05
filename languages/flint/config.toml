@@ -1,4 +1,4 @@
 name = "Flint"
 grammar = "flint"
-path_suffixes = ["ft", "flint"]
-line_comments = ["//"]
+path_suffixes = ["ft"]
+line_comments = ["// "]

@@ -1,7 +1,11 @@
 id = "flint"
 name = "Flint"
-version = "0.0.1"
+version = "0.1.0"
 description = "Support for the Flint Programming Language"
 schema_version = 1
 authors = ["Julius Grünberg <ghastcrafthd@troense.de>"]
 repository = "https://github.com/GhastCraftHD/flint-zed"
+
+[grammars.flint]
+repository = "https://github.com/flint-lang/tree-sitter-flint"
+commit = "c1a60a7a0324eb08ca95adc41688315f3e28e361"
