@@ -1,0 +1,7 @@
+id = "flint"
+name = "Flint"
+version = "0.0.1"
+description = "Support for the Flint Programming Language"
+schema_version = 1
+authors = ["Julius Grünberg <ghastcrafthd@troense.de>"]
+repository = "https://github.com/GhastCraftHD/flint-zed"

@@ -1,0 +1,4 @@
+name = "Flint"
+grammar = "flint"
+path_suffixes = ["ft", "flint"]
+line_comments = ["//"]
