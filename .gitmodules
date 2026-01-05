@@ -1,0 +1,3 @@
+[submodule "tree-sitter-flint"]
+	path = tree-sitter-flint
+	url = https://github.com/flint-lang/tree-sitter-flint
