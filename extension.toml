@@ -8,4 +8,4 @@ repository = "https://github.com/GhastCraftHD/flint-zed"
 
 [grammars.flint]
 repository = "https://github.com/flint-lang/tree-sitter-flint"
-commit = "c1a60a7a0324eb08ca95adc41688315f3e28e361"
+commit = "6b862569ec45646160e8e261896521dc48da3b89"
