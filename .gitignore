@@ -1,6 +1,5 @@
 grammars/
 target/
-extension.wasm
 .DS_Store
 
 flinttest/

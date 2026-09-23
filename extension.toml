@@ -1,11 +1,15 @@
 id = "flint"
 name = "Flint"
-version = "0.1.0"
+version = "0.4.2"
 description = "Support for the Flint Programming Language"
 schema_version = 1
-authors = ["Julius Grünberg <ghastcrafthd@troense.de>"]
-repository = "https://github.com/GhastCraftHD/flint-zed"
+authors = ["Julius Grünberg <ghastcrafthd@troense.de>", "Marc Zweiler <marc.zweiler@outlook.at>"]
+repository = "https://github.com/flint-lang/flint-zed"
 
 [grammars.flint]
 repository = "https://github.com/flint-lang/tree-sitter-flint"
-commit = "6b862569ec45646160e8e261896521dc48da3b89"
+rev = "5ef852fe700213986e49ac60e9559c5f26d487ec"
+
+[language_servers.flint]
+name = "Flint Language Server"
+languages = ["Flint"]

@@ -2,6 +2,14 @@ name = "Flint"
 grammar = "flint"
 path_suffixes = ["ft"]
 line_comments = ["// "]
+tab_size = 4
+hard_tabs = true
+auto_indent_using_last_non_empty_line = false
+increase_indent_pattern = "^[^#].*:\\s*(#.*)?$"
+decrease_indent_patterns = [
+    { pattern = "^\\s*else\\s+if\\b.*:\\s*$", valid_after = ["if"] },
+    { pattern = "^\\s*else\\b.*:\\s*$", valid_after = ["if"] },
+]
 brackets = [
     { start = "(", end = ")", close = true, newline = false },
     { start = "[", end = "]", close = true, newline = true },
